@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightScreen_KR10
+  m_Shader: {fileID: -6465566751694194690, guid: 1a2c957e72a44164f940d5f56b452a56,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_8A12E31A:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8EFC7BA7:
+        m_Texture: {fileID: 2800000, guid: e4e2980fff56da44d86a9e233263452d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DotPattern:
+        m_Texture: {fileID: 2800000, guid: b1a71e63d8518ae4382fea06b8224d49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FencePostAlpha:
+        m_Texture: {fileID: 2800000, guid: 4ef8598229581ed46b3f9389b069fda1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FencePosts:
+        m_Texture: {fileID: 2800000, guid: bfe2fcc845f80d04385d9be4ed0033ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_113B4462_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 05e646ea9863c7449bff2e8ab79a6a38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1C9B5F0E_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 05e646ea9863c7449bff2e8ab79a6a38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2012D98_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c840aafbe7751264fb2e20c57f7148f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_39E496FC_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7857fdf62cabfc840b604e01c777b627, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_565D963D_Texture_1:
+        m_Texture: {fileID: 2800000, guid: bfe2fcc845f80d04385d9be4ed0033ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_59788E83_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4ef8598229581ed46b3f9389b069fda1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_79106294_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e4e2980fff56da44d86a9e233263452d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_B17984EF_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 64b25e9cfcbbfeb4d93233cc616f2919, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1E573CB0: 0.24
+    - Vector1_59936ED6: 0
+    - Vector1_625A0F48: 4.82
+    - Vector1_6A52F96C: 0.05
+    - Vector1_6DF7B194: 0
+    - Vector1_8ED002BF: 0.05
+    - Vector1_91CE5708: 0
+    - Vector1_E71F8B2B: 0
+    - Vector1_EB102EC0: 13.67
+    - Vector1_F381E1A3: 2.23
+    - Vector1_F6ADDE05: 0
+    - _AlphaStrength: 0
+    - _CurtainDisolve: 1
+    - _FenceToggle: 0
+    - _FresnelPower: 0.16
+    - _NoiseAlpha: 1.58
+    - _NoiseScale: 4
+    - _NoiseSpeed: 1
+    - _PatternSpeed: 0.5
+    - _ScreenToggle: 0.59
+    m_Colors:
+    - Color_2261562B: {r: 0, g: 0.49411765, b: 0.7490196, a: 0}
+    - Color_2BEC6DAB: {r: 0.33668563, g: 0.79542345, b: 0.9150943, a: 0}
+    - Color_71A84435: {r: 0, g: 0.37286374, b: 2, a: 0}
+    - Vector2_2879A085: {r: 100, g: 100, b: 0, a: 0}
+    - Vector2_5195138: {r: 2, g: 2, b: 0, a: 0}
+    - Vector2_E34B2C2D: {r: 0, g: 4, b: 0, a: 0}
+    - _FillColor: {r: 0, g: 0.49411765, b: 0.7490196, a: 0}
+    - _GlowColor: {r: 0, g: 0.2784314, b: 0.8039216, a: 0}
+    - _Tiling: {r: 100, g: 100, b: 0, a: 0}

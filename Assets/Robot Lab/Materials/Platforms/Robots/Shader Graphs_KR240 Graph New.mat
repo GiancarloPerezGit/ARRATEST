@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_KR240 Graph New
+  m_Shader: {fileID: -6465566751694194690, guid: df4e9102a5b85a44b9286504477dec9f,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOOverall:
+        m_Texture: {fileID: 2800000, guid: 3140227402ac7084598108a2c0b8519b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AOTile:
+        m_Texture: {fileID: 2800000, guid: 306457a7713e184489b121af956c730c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTile:
+        m_Texture: {fileID: 2800000, guid: b37bc493232a0d148b4c785f562d5aef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Decal:
+        m_Texture: {fileID: 2800000, guid: f665d13166e9f22428b845a83baa7025, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TileNormal:
+        m_Texture: {fileID: 2800000, guid: d55e25c47c6616a49b042fb48b850d83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Metalic: 0.179
+    - _NormalStrength: 0
+    - _Smoothness: 0
+    m_Colors:
+    - _ColorTint: {r: 0.3882353, g: 0.3882353, b: 0.3882353, a: 0}
+    - _DecalColor: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 5, g: 5, b: 0, a: 0}

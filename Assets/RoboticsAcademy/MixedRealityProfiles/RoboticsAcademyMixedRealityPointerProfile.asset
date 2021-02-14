@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db393d206eab4604ab74278cb6cda355, type: 3}
+  m_Name: RoboticsAcademyMixedRealityPointerProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  pointingExtent: 10
+  pointingRaycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 1075
+  debugDrawPointingRays: 0
+  debugDrawPointingRayColors:
+  - {r: 1, g: 0.58280706, b: 0, a: 1}
+  - {r: 0.86426115, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.2163105, a: 1}
+  - {r: 0, g: 0.3028021, b: 1, a: 1}
+  - {r: 0.44855833, g: 0, b: 1, a: 1}
+  gazeCursorPrefab: {fileID: 1000012072213228, guid: 5b3e2856904e43c680f84f326861032a,
+    type: 3}
+  gazeProviderType:
+    reference: Microsoft.MixedReality.Toolkit.Input.GazeProvider, Microsoft.MixedReality.Toolkit.Services.InputSystem
+  pointerOptions:
+  - controllerType: 1071
+    handedness: 2
+    pointerPrefab: {fileID: 1247086986094436, guid: f70e21153079e024a9d67d05eebcae62,
+      type: 3}
+  - controllerType: 1071
+    handedness: 2
+    pointerPrefab: {fileID: 2446265184111346118, guid: fce3cfb43bbf4ee4b9d2734e0fb4ebfb,
+      type: 3}
+  - controllerType: 256
+    handedness: 2
+    pointerPrefab: {fileID: 1247086986094436, guid: 9a471cda529aa5743b568276f02d7836,
+      type: 3}
+  - controllerType: 512
+    handedness: 2
+    pointerPrefab: {fileID: 1247086986094436, guid: 9e3ae284a8bad0947b33412f1051f3d6,
+      type: 3}
+  - controllerType: 1024
+    handedness: 2
+    pointerPrefab: {fileID: 1507865967819406, guid: 734400bd33356c348983ae7c3944c57a,
+      type: 3}
+  - controllerType: 1024
+    handedness: 2
+    pointerPrefab: {fileID: 1507865967819406, guid: 6db1658ee73770d47ba68d24b0ce1473,
+      type: 3}
+  - controllerType: 2048
+    handedness: 2
+    pointerPrefab: {fileID: 1247086986094436, guid: e6bc2b4bd3c81fb40a1e1554e8281aea,
+      type: 3}
+  pointerMediator:
+    reference: Microsoft.MixedReality.Toolkit.Input.DefaultPointerMediator, Microsoft.MixedReality.Toolkit.SDK
+  primaryPointerSelector:
+    reference: Microsoft.MixedReality.Toolkit.Input.DefaultPrimaryPointerSelector,
+      Microsoft.MixedReality.Toolkit.SDK
